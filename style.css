@@ -1,0 +1,165 @@
+/*Modificaciones de diseño al bootstrap*/
+
+.bg-navngd {
+    background-color: black ;
+}
+
+.nav-link {
+    color: white;
+}
+
+.z-navngd {
+    z-index: 1;
+}
+
+.barra-ngdstaff {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.barra-ngdtech {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Footer*/
+
+.pie-pagina{
+    width: 100%;
+    background-color: black;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: white;
+}
+
+.pie-pagina .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+
+/*Equipo*/
+
+.barra-ngdequipo {
+    background-color: rgb(242, 242, 242);
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo-staff {
+    background-color: white;
+    color: black;
+}
+
+.parrafoteamcenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(5, 5, 65);
+}
+
+/*Media queries mobile*/
+
+
+@media only screen and (max-width: 480px) {
+    .staffaside {
+        background-color: blue;
+    }
+}
+
+/*Mobie query desktop*/
+
+@media only screen and (max-width: 961px) {
+    .staffaside {
+        background-color: grey;
+    }
+}
+
+
+/*Transformaciones, Animaciones y Transiciones*/
+
+.boxteam {
+    background-color: rgb(242, 242, 242);
+    transition: all 3s;
+}
+
+.boxteam:hover {
+    transform: scale(1.5);
+}
+
+.nav-link {
+    transition: all 2s;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.experiencia-efect {
+    background-color: rgb(242, 242, 242);
+    transition: all 3s;
+}
+
+.experiencia-efect:hover {
+    transform: scale(2);
+}
+
